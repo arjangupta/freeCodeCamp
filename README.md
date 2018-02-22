@@ -1,3 +1,3 @@
-## Free Code Camp Coursework
+### freeCodeCamp Coursework
 
 My exercise solutions as well as project work is stored in this repository.
