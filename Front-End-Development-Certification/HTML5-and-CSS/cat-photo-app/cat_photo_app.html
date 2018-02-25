@@ -35,7 +35,9 @@
 
 <body>
 	<!-- HTML img tag, usually self closing, alt attribute is used to describe for accessibility + in case photo doesn't load -->
-	<img class="large-image thin-purple-border" src="http://www.catster.com/wp-content/uploads/2017/06/small-kitten-meowing.jpg" alt="Picture of a cat meowing">
+	<a href="http://www.catster.com/wp-content/uploads/2017/06/small-kitten-meowing.jpg">
+		<img class="large-image thin-purple-border" src="http://www.catster.com/wp-content/uploads/2017/06/small-kitten-meowing.jpg" alt="Picture of a cat meowing">
+	</a>
 
 	<!-- h2 heading element, others are h1, h3, h4, h5, and h6 -->
 	<h2 class="red-text" style="font-family: Lobster, sans-serif;"> <!-- The font will degrade to sans-serif if lobster can't be fetched -->
@@ -53,7 +55,7 @@
 
 	<!-- Clickable link paragraph -->
 	<p class="red-text">
-		Here are some more <a href="http://freecatphotoapp.com">cat photos</a> for you.
+		Here are some more <a href="http://freecatphotoapp.com">cat photos</a> for you. <!-- To make href a dead-link, change to href="#" -->
 	</p>
 </body>
 
