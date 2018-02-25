@@ -9,7 +9,7 @@
 }
 
 .large-image {
-	width: 750px;
+	width: 750px; /* setting the height is also possible */
 }
 
 p { 
