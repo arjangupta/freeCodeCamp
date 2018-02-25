@@ -6,6 +6,7 @@
 	border-color: purple;
 	border-width: 5px;
 	border-style: solid;
+	border-radius: 20%; /* you can also specify border-radius in px */
 }
 
 .large-image {
