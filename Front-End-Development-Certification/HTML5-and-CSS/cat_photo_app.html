@@ -5,27 +5,30 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
-	<!-- CSS style element to configure the style of h2 -->
-	<style>
-		.red-text {
-			color: red;
-		}
+	<!-- There are three ways to program CSS in an HTML file. 
+		1. Inline CSS
+			Setting the inline CSS style of tagname can be done by <tagname style="property:value;">whatever</tagname>
+			For example, we can do: <h2 style="color:red;">CatPhotoApp</h2> 
+		 
+		2. Internal CSS
+			This way of using CSS comprises of doing all of our work between the <style> and </style> tags in HTML.
+			We declare class names with a . prefix, for example .green-text is a global class that can be used by
+			any tag, but p.green-text is a class that can only be used by paragraph tags. For example, we have:
 
-		.thin-purple-border {
-			border-color: purple;
-			border-width: 5px;
-			border-style: solid;
-		}
+			<style>
+				.thin-purple-border {
+					border-color: purple;
+					border-width: 5px;
+					border-style: solid;
+				}
+			</style>
 
-		.large-image {
-			width: 750px;
-		}
+			<img class="thin-purple-border some-other-class" src="http://www.somesite.com/xyz/blah.jpg" alt="Blah pic">
 
-		p { 
-			font-size: 14px;
-			font-family: Monaco, monospace; 
-		}
-	</style>
+		3. External CSS
+			In this case, we just replace the style element with: <link href="path/to/local/location" rel="stylesheet" type="text/css">
+	-->
+	<link href="styles.css" rel="stylesheet" type="text/css">
 
 	<title>FCC CatPhotoApp</title>
 </head>

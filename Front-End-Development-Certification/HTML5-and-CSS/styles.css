@@ -1,0 +1,18 @@
+.red-text {
+	color: red;
+}
+
+.thin-purple-border {
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.large-image {
+	width: 750px;
+}
+
+p { 
+	font-size: 14px;
+	font-family: Monaco, monospace; 
+}
