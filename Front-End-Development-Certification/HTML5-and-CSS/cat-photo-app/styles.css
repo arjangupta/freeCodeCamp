@@ -13,7 +13,7 @@
 	width: 750px; /* setting the height is also possible */
 }
 
-p { 
+p, ul { 
 	font-size: 14px;
 	font-family: Monaco, monospace; 
 }
