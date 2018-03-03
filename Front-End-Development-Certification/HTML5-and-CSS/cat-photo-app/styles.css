@@ -13,6 +13,10 @@
 	width: 750px; /* setting the height is also possible */
 }
 
+h2 { /* The font will degrade to sans-serif if lobster can't be fetched */
+	font-family: Lobster, sans-serif;
+}
+
 p, ul, ol { 
 	font-size: 14px;
 	font-family: Monaco, monospace; 
