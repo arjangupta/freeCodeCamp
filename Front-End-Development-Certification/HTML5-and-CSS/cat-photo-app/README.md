@@ -1,1 +1,3 @@
-### Cat Photo App as taught on freeCodeCamp
+### Cat Photo App 
+
+...as taught on the freeCodeCamp website.
