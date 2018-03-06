@@ -71,6 +71,9 @@
 	<p class="red-text">Would you like to (pretend to) submit a cat photo? Here's a form:</p>
 	<form action="/submit-cat-photo" target="_blank"> <!-- _blank target will open new tab for result -->
 		<input type="text" placeholder="Cat photo URL"> <!-- input tag is self-closing -->
+		<br>
+		<input type="text" placeholder="Your name (REQUIRED)" required> <!-- Use HTML required attribute -->
+		<br> 
 		<button type="submit">SUBMIT</button> <!-- This will trigger the form to be submitted to the action URL -->
 	</form>
 </body>
