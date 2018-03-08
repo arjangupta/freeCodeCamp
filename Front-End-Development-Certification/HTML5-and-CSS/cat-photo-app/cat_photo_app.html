@@ -63,20 +63,6 @@
 		<li> Thunder </li>
 	</ol>
 
-	<!-- Example of a radio button inside a label element 
-		 There are two ways to use label tags: put the input
-		 inside it or use the 'for' attribute
-	-->
-	<p class="red-text">Where do your cats love to reside?</p>
-	<!-- First radio button option -->
-	<label class="red-text">
-		<input type="radio" name="indoor-outdoor"> Indoors
-	</label>
-	<!-- Second radio button option -->
-	<label class="red-text">
-		<input type="radio" name="indoor-outdoor"> Outdoors
-	</label>
-
 	<!-- Clickable link paragraph -->
 	<p class="red-text">
 		Here are some more <a href="http://freecatphotoapp.com">cat photos</a> for you. <!-- To make href a dead-link, change to href="#" -->
@@ -87,7 +73,22 @@
 		<input type="text" placeholder="Cat photo URL"> <!-- input tag is self-closing -->
 		<br>
 		<input type="text" placeholder="Your name (REQUIRED)" required> <!-- Use HTML required attribute -->
-		<br> 
+
+		<!-- Example of a radio button inside a label element 
+		 There are two ways to use label tags: put the input
+		 inside it or use the 'for' attribute
+		-->
+		<p class="red-text">Where do your cats love to reside?</p>
+		<!-- First radio button option -->
+		<label class="red-text">
+			<input type="radio" name="indoor-outdoor"> Indoors
+		</label>
+		<!-- Second radio button option -->
+		<label class="red-text">
+			<input type="radio" name="indoor-outdoor"> Outdoors
+		</label>
+
+		<br>
 		<button type="submit">SUBMIT</button> <!-- This will trigger the form to be submitted to the action URL -->
 	</form>
 </body>
