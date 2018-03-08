@@ -39,75 +39,78 @@
 		<img class="large-image thin-purple-border" src="http://www.catster.com/wp-content/uploads/2017/06/small-kitten-meowing.jpg" alt="Picture of a cat meowing">
 	</a>
 
-	<!-- h2 heading element, others are h1, h3, h4, h5, and h6 -->
-	<h2 class="red-text">
-		CatPhotoApp
-	</h2>
+	<div class="saddle-brown-text">
+		<!-- h2 heading element, others are h1, h3, h4, h5, and h6 -->
+		<h2>
+			CatPhotoApp
+		</h2>
 
-	<p class="red-text"> <!-- p is the paragraph tag -->
-		Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-	</p>
+		<p> <!-- p is the paragraph tag -->
+			Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+		</p>
 
-	<p class="red-text"> <!-- Unordered list inside a paragraph -->
-		Here are some of the things cats like:
-		<ul class="red-text">
-			<li> Milk </li>
-			<li> Mice </li>
-		</ul>
-	</p>
+		<p> <!-- Unordered list inside a paragraph -->
+			Here are some of the things cats like:
+			<ul>
+				<li> Milk </li>
+				<li> Mice </li>
+			</ul>
+		</p>
 
-	<!-- Ordered list outside a paragraph -->
-	<p class="red-text"> Top 2 things cats hate: </p>
-	<ol class="red-text">
-		<li> Other cats </li>
-		<li> Thunder </li>
-	</ol>
+		<!-- Ordered list outside a paragraph -->
+		<p> Top 2 things cats hate: </p>
+		<ol>
+			<li> Other cats </li>
+			<li> Thunder </li>
+		</ol>
 
-	<!-- Clickable link paragraph -->
-	<p class="red-text">
-		Here are some more <a href="http://freecatphotoapp.com">cat photos</a> for you. <!-- To make href a dead-link, change to href="#" -->
-	</p>
+		<!-- Clickable link paragraph -->
+		<p>
+			Here are some more <a href="http://freecatphotoapp.com">cat photos</a> for you. <!-- To make href a dead-link, change to href="#" -->
+		</p>
 
-	<p class="red-text">Would you like to (pretend to) submit a cat photo? Here's a form:</p>
-	<form action="/submit-cat-photo" target="_blank"> <!-- _blank target will open new tab for result -->
-		<input type="text" placeholder="Cat photo URL"> <!-- input tag is self-closing -->
-		<br>
-		<input type="text" placeholder="Your name (REQUIRED)" required> <!-- Use HTML required attribute -->
+		<p >Would you like to (pretend to) submit a cat photo? Here's a form:</p>
+		<form action="/submit-cat-photo" target="_blank"> <!-- _blank target will open new tab for result -->
+			<input type="text" placeholder="Cat photo URL"> <!-- input tag is self-closing -->
+			<br>
+			<input type="text" placeholder="Your name (REQUIRED)" required> <!-- Use HTML required attribute -->
 
-		<!-- Example of a radio button inside a label element 
-		 There are two ways to use label tags: put the input
-		 inside it or use the 'for' attribute
-		-->
-		<p class="red-text">Where do your cats love to reside?</p>
-		<!-- First radio button option -->
-		<label class="red-text">
-			<input type="radio" name="indoor-outdoor" required> Indoors <!-- You can also mark radio buttons as required -->
-		</label>
-		<!-- Second radio button option -->
-		<label class="red-text">
-			<input type="radio" name="indoor-outdoor" required> Outdoors
-		</label>
+			<!-- Example of a radio button inside a label element 
+			 There are two ways to use label tags: put the input
+			 inside it or use the 'for' attribute
+			-->
+			<p>Where do your cats love to reside?</p>
+			<!-- First radio button option -->
+			<label>
+				<input type="radio" name="indoor-outdoor" required> Indoors <!-- You can also mark radio buttons as required -->
+			</label>
+			<!-- Second radio button option -->
+			<label>
+				<input type="radio" name="indoor-outdoor" required> Outdoors
+			</label>
 
-		<br>
+			<br>
 
-		<!-- Example of checkbox buttons. Similar to radio buttons -->
-		<p class="red-text">What colors do you like your cats?</p>
-		<label class="red-text">
-			<input type="checkbox" name="cat_colors"> Black
-		</label>
-		<label class="red-text">
-			<input type="checkbox" name="cat_colors"> Grey
-		</label>
-		<label class="red-text">
-			<input type="checkbox" name="cat_colors"> White
-		</label>
-		<label class="red-text">
-			<input type="checkbox" name="cat_colors" checked> Other
-		</label>
+			<!-- Example of checkbox buttons. Similar to radio buttons -->
+			<p>What colors do you like your cats?</p>
+			<label>
+				<input type="checkbox" name="cat_colors"> Black
+			</label>
+			<label>
+				<input type="checkbox" name="cat_colors"> Grey
+			</label>
+			<label>
+				<input type="checkbox" name="cat_colors"> White
+			</label>
+			<label>
+				<input type="checkbox" name="cat_colors" checked> Other
+			</label>
 
-		<br>
-		<button type="submit">SUBMIT</button> <!-- This will trigger the form to be submitted to the action URL -->
-	</form>
+			<br>
+			<button type="submit">SUBMIT</button> <!-- This will trigger the form to be submitted to the action URL -->
+		</form>
+	</div>
+
 </body>
 
 </html>
